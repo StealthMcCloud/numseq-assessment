@@ -1,9 +1,9 @@
+'''
+Run this file from the command line to run all the modules
+'''
 from numseq.fib import fib
 from numseq.geo import square, triangle, cube
 from numseq.prime import is_prime, primes
-# can import * from numseq.geo or primes but
-# creates a pep8 warning/bad practice for readability
-
 
 print('Fibonacci')
 for i in range(10):
