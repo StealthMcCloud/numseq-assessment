@@ -1,9 +1,11 @@
 '''
 Run this file from the command line to run all the modules
 '''
+
 from numseq.fib import fib
 from numseq.geo import square, triangle, cube
 from numseq.prime import is_prime, primes
+import timeit
 
 print('Fibonacci')
 for i in range(10):

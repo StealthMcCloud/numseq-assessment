@@ -9,11 +9,7 @@ def square(n):
 
 def triangle(n):
     """Returns the factorial of n!"""
-    result = n
-    while n > 0:
-        result += n - 1
-        n -= 1
-    return result
+    return (n * (n + 1)) / 2
 
 
 def cube(n):
